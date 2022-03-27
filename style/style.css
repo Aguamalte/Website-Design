@@ -45,6 +45,10 @@ height: 26px;
     justify-content: space-around;
     align-items: flex-start;    
 }
+.responsive_list
+{
+    display: none;
+}
 .nav_logo
 {
     font-family: 'Josefin Sans', sans-serif;
@@ -240,8 +244,9 @@ section
     display: flex;   
     flex-direction: column;
 }
-.nav {
-    
+.responsive_list{
+    visibility: visible;
+    display: flex;
 }
 
 .og_list
