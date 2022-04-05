@@ -1,0 +1,143 @@
+.header_container
+{
+    height: 820px;
+    background-image: url("/images/image1.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+}
+.head_txt
+{
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+    height: 76px;
+    text-align: center;
+}
+input
+{
+    width: 503px;
+    height: 63px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #999999;
+}
+.search_btn
+{
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    letter-spacing: 1.4px;
+    width: 153px;
+    height: 63px;
+}
+.head_txt h1
+{
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 6.82px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+}
+.head_txt h2
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+}
+.nav
+{
+    background: #5474FD;
+    display: flex;
+    height: 83px;
+    justify-content: space-around;
+    align-items: flex-start;    
+}
+.responsive_list
+{
+    display: none;
+}
+.nav_logo
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 186px;
+    height: 26px;
+}
+.nav_links
+{
+    width: 525px;
+    height: 12px;
+}
+ul
+{
+    display: flex;
+    justify-content: space-around;   
+}
+li
+{
+    font-family: 'Aleo' serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    list-style: none;   
+}
+.responsive_list
+{
+    display: visible;
+}
+@media screen and (min-width:321px) and (max-width:768px) /* //Mobile */{
+    section
+    {
+        display: flex;   
+        flex-direction: column;
+    }
+    .responsive_list
+    {
+        visibility: visible;
+        display: flex;
+    }
+    
+    .og_list
+    {
+        display: none;   
+    }
+    img
+    {
+        max-width: 100%;
+    }
+    .input
+    {
+        width:50%;
+    }   
+}

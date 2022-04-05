@@ -1,0 +1,121 @@
+.footer
+{
+    height: 731px;
+    background-image: url(/images/footer_image.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer h1
+{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer_container
+{
+   
+    display: flex;
+}
+.footer_thumbnail
+{
+    width: 445px;
+    height: 284px;
+    background-image: url("/images/footer_thumbnail.png");  
+}
+.footer_txt
+{
+    width: 668px;
+    height: 287px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 62px;
+}
+.footer_txt
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FEFEFE;
+    text-align: left;    
+}
+.footer_txt h1
+{
+    font-size: 20px;
+    text-align: left;
+}
+.footer_txt p
+{
+    font-size: 16px;
+    width: 581px;
+    height: 163px
+}
+.bottom
+{
+    height: 271px;
+    background-color: black;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;   
+}
+.bottom_banner
+{
+    display: flex;
+    align-items: center;
+}
+.bottom h1
+{
+    font-size: 24px;
+    letter-spacing: 3.36px;
+}
+.bottom p
+{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+@media screen and (min-width:321px) and (max-width:768px) /* //Mobile */{
+.footer_container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+    .footer_txt p
+    {
+        font-size: 14px;
+        text-align:center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .footer_txt h1
+    {
+        text-align: center;
+    }
+    .footer_txt
+    {
+        display: flex;
+    }
+   img
+   {
+       max-width: 100%;
+   }
+    .header_container
+    {
+        display:flex ;
+        text-align: center;
+    }
+
+}
